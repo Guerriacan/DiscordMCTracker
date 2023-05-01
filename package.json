@@ -1,0 +1,26 @@
+{
+  "name": "discordmctrackerjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guerriacan/DiscordMCTrackerJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guerriacan/DiscordMCTrackerJS/issues"
+  },
+  "homepage": "https://github.com/Guerriacan/DiscordMCTrackerJS#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "mc-server-info": "^1.2.0"
+  }
+}
