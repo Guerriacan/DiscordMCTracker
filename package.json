@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "prod": "node index.js"
+    "dev": "nodemon -r dotenv/config index.js",
+    "prod": "node -r dotenv/config index.js"
   },
   "repository": {
     "type": "git",
