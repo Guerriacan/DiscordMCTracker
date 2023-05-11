@@ -4,7 +4,7 @@ const { Client, GatewayIntentBits, Collection } = require('discord.js');
 
 require('dotenv').config()
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+global.client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 
 //command handler
@@ -25,6 +25,7 @@ for (const folder of commandFolders) {
         }
     }
 }
+
 
 //event handler
 const eventsPath = path.join(__dirname, 'events');
